@@ -178,7 +178,7 @@ p {
 }
 
 /* ///////////////////////////////////////////// media query section ////////////////////////// */
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1028px) {
  #title .box-container {
     text-align: center;
   }
