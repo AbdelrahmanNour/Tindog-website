@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*  heading section */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* box container section  */
+.box-container {
+  padding: 7% 15%;
+}
+
+/*  Colored section  */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* ///////////////////////////////////////////// title section ////////////////////////// */
+
+#title .box-container {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.5rem;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 10% 0;
+}
+
+/* dog image */
+.dog-img {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 60%;
+  left: 30%;
+}
+
+/* ///////////////////////////////////////////// features section ////////////////////////// */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding: 10% 0 4% 0;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+  margin: auto;
+  width: 60%;
+}
+
+/* ///////////////////////////////////////////// testimonials section ////////////////////////// */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* ///////////////////////////////////////////// Press section ////////////////////////// */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 12%;
+}
+
+/* ///////////////////////////////////////////// pricing section ////////////////////////// */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-edit {
+  margin-top: 56px;
+}
+
+.pricing-card-header {
+  font-size: 1.5rem;
+}
+
+/* ///////////////////////////////////////////// Call to Action section ////////////////////////// */
+.cta-header {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.download-button-cta {
+  margin: 3% 1% 0 0.5%;
+}
+
+/* ///////////////////////////////////////////// footer section ////////////////////////// */
+#footer {
+  padding: 5% 15%;
+}
+
+.footer-icon {
+  margin: 3% 0.5% 1%;
+}
+
+.footer-icon:hover {
+  font-size: 30px;
+  margin: 0;
+}
+
+/* ///////////////////////////////////////////// media query section ////////////////////////// */
+@media screen and (max-width:1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
