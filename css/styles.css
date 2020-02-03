@@ -179,7 +179,7 @@ p {
 
 /* ///////////////////////////////////////////// media query section ////////////////////////// */
 @media screen and (max-width:1200px) {
-  #title {
+ #title .box-container {
     text-align: center;
   }
 
