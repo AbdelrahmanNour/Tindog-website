@@ -170,6 +170,7 @@ p {
 
 .footer-icon {
   margin: 3% 0.5% 1%;
+  transition: all 0.3s;
 }
 
 .footer-icon:hover {
